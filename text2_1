@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+L=[]
+A=[]
+B=[]
+C=[]
+L.append(A)
+L.insert(1,B)
+L.insert(2,C)
+A.append('apple')
+A.insert(1,'google')
+A.append('fds')
+A[2]='microsoft'
+B.insert(0,'java')
+B.insert(1,'python')
+B.insert(2,'ruby')
+B.append ('php')
+C=['Adam', 'Bart', 'Lisa']
+print(L)
+print(L[0][0])
+print(L[1][1])
+print(L[2][2]) 
